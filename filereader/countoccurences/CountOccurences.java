@@ -12,7 +12,7 @@ public class CountOccurences {
         String filepath = "C:\\Users\\tanda\\OneDrive\\Documents\\Desktop\\Training\\Week3\\Day4\\src\\filereader\\countoccurences\\file.txt";
 
         //word to search
-        String word = "forest";
+        String word = "the";
         int result = occurence(filepath, word);
         System.out.println("occurences of the word : " + result);
     }
